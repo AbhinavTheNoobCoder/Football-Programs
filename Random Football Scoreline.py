@@ -1,4 +1,8 @@
 import random
+print('''Write the lineups of two football teams to get a random scorecard.
+When giving the name of a defender, add (d) to the end of the name.
+Similarly for the goalkeeper, use (gk).
+For the midfielders, add (m), and for the attackers, add (a) at the end of the name.''')
 
 class Player:
   def __init__(self, name):
